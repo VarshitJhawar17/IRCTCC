@@ -1,0 +1,269 @@
+.container{
+    display: flex;
+    flex-direction: row;
+}
+
+.content{
+    width: 50%;
+}
+.image{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+
+}
+.vandebharat{
+    height: 360px;
+}
+.train{
+    height: 360px;
+}
+
+.heading-logo{
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    
+}
+
+.logo{
+    width: 60px;
+    height: 60px;
+}
+.logo-2{
+    width: 60px;
+    height: 60px;
+}
+.heading-text{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 40px;
+    position: absolute;
+    top: 40px;
+    left: 500px;
+    font-size: small;
+}
+
+.heading-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;   
+}
+.heading-2{
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-around;
+}
+
+.switch{
+    border-width: 0.5px;
+    background-color: white;
+}
+
+.login{
+    border-width: 0.5px;
+    background-color: rgb(255, 60, 0);
+    color: white;
+}
+.heading{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 300px;
+    height: 20px;
+    position: absolute;
+    top: 150px;
+    left: 40px;
+}
+.text-content{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.text-content-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;   
+}
+
+.safety{
+    color: green;
+}
+
+.security{
+    color: rgb(255, 60, 0);
+}
+
+.punctuality{
+    color: darkblue;
+}
+.buttons{
+    
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 300px;
+    left: 40px;
+    width: 320px;
+    height: 30px;
+    justify-content: space-around;
+}
+.booktickets{
+    background-color: darkblue;
+    color: white;
+    border-width: 0.5px;
+}
+.pnrstatus{
+    border-width: 0.5px;
+    background-color: white;
+    color: darkblue;
+}
+.chart{
+    border-width: 0.5px;
+    background-color: white;
+    color: darkblue;
+}
+
+.destination{
+    position: absolute;
+    left: 40px;
+    top:400px;
+    width: 700px;
+    height: 90px;
+    border:solid;
+    border-color: rgb(194, 193, 193);
+    border-width: 1px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+/* .destination-1{
+    display: flex;
+    flex-direction: column;   
+    position: absolute;
+    top: 400px;
+    left: 130px;
+} */
+.city{
+    position: absolute;
+    top: 10px;
+    left: 80px;
+}
+
+.City-Name{
+    position: absolute;
+    top: 10px;
+    left: 80px;
+}
+.description{
+    position: absolute;
+    top: 35px;
+    left: 80px;
+}
+.icon-arrow{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+}
+.city-2{
+    position: absolute;
+    top: 10px;
+    right: 80px;
+}
+
+.City-Name-2{
+    position: absolute;
+    top: 10px;
+    right: 80px;
+}
+.description-2{
+    position: absolute;
+    top: 35px;
+    right: 80px;
+}
+
+
+
+
+/* ---------------------------------- */
+
+
+.Date{
+    position: absolute;
+    left: 40px;
+    top:500px;
+    width: 700px;
+    height: 90px;
+    border:solid;
+    border-color: rgb(194, 193, 193);
+    border-width: 1px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+
+.date{
+    position: absolute;
+    top: 10px;
+    left: 80px;
+}
+
+.date-display{
+    position: absolute;
+    top: 10px;
+    left: 80px;
+}
+.day{
+    position: absolute;
+    top: 35px;
+    left: 80px;
+}
+.info{
+    position: absolute;
+    top: 10px;
+    left: 350px;
+
+}
+
+.seat-1{
+    position: absolute;
+    top: 10px;
+    left: 350px
+
+}
+.info-seat{
+    position: absolute;
+    top: 35px;
+    left: 350px
+
+}
+
+.type-seat{
+    position: absolute;
+    top: 10px;
+    right: 80px;
+}
+
+.seat{
+    position: absolute;
+    top: 10px;
+    right: 80px;
+}
+.seat-description{
+    position: absolute;
+    top: 35px;
+    right: 80px;
+}
+
+.Search{
+    width: 700px;
+    height: 40px;
+    position: absolute;
+    top: 630px;
+    left: 40px;
+    background-color: green;
+    color: white;
+}
